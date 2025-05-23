@@ -33,6 +33,13 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup MOD_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialFabric.MOD_ID, "mod_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CHISEL))
+                    .displayName(Text.translatable("itemgroup.tutorialfabric.mod_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CHISEL);
+                    }).build());
 
     public static void registeritemGroups() {
         TutorialFabric.LOGGER.info("registering Item Groups for " + TutorialFabric.MOD_ID);

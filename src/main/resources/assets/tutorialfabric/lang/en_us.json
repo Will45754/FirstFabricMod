@@ -1,6 +1,7 @@
 {
   "item.tutorialfabric.pink_garnet": "Pink Garnet",
   "item.tutorialfabric.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialfabric.chisel": "Chisel",
 
   "block.tutorialfabric.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialfabric.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -9,5 +10,6 @@
   "block.tutorialfabric.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "itemgroup.tutorialfabric.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialfabric.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialfabric.pink_garnet_blocks": "Pink Garnet Blocks",
+  "itemgroup.tutorialfabric.mod_items": "Mod Items"
 }
